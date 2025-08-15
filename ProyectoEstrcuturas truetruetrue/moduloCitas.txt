@@ -1,0 +1,3 @@
+180000|0|Jose|Meza|1727586750|f@d.s|0963892264|1/1/2000|0|Sofia|Gomez|Psiquiatria||15/12/2025|9:0|1|Hospital Carlos Andrade MarÃ­n, Av. Universitaria, Quito, Pichincha, Ecuador|-0.20513|-78.50446
+180002|0|Sebastian|Tonato|1723212591|sebas@gmail.com|0995320133|1/1/2000|0|Pedro|Martinez|Dermatologia||16/10/2025|9:30|1|Hospital Carlos Andrade MarÃ­n, Av. Universitaria, Quito, Pichincha, Ecuador|-0.20513|-78.50446
+180003|0|Anthony|Morales|1728441344|cualquier@gmail.com|0995320133|1/1/2000|0|Carlos|Lopez|Traumatologia||16/2/2026|9:30|1|Hospital BÃ¡sico RaÃºl Maldonado MejÃ­a, Panamericana Norte km 1, Cayambe, Pichincha, Ecuador|0.04076|-78.13555

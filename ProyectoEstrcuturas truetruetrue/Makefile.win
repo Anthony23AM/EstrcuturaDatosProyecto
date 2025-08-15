@@ -1,0 +1,88 @@
+# Project: Proyecto 1
+# Makefile created by Embarcadero Dev-C++ 6.3
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = BPlusTree.o case1.o case2.o case4.o case6.o case9.o case11.o CitasIO.o DiasFestivos.o Especialista.o Evento.o Fecha.o Hora.o Listasdc.o ListaSimple.o main.o Marquesina.o Persona.o QrCode.o Utilidades.o Validar.o
+LINKOBJ  = BPlusTree.o case1.o case2.o case4.o case6.o case9.o case11.o CitasIO.o DiasFestivos.o Especialista.o Evento.o Fecha.o Hora.o Listasdc.o ListaSimple.o main.o Marquesina.o Persona.o QrCode.o Utilidades.o Validar.o
+LIBS     = -L"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib" -L"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/lib" -static-libgcc -g3
+INCS     = -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+CXXINCS  = -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"
+BIN      = "Proyecto 1.exe"
+CXXFLAGS = $(CXXINCS) -g3 -std=c++17
+CFLAGS   = $(INCS) -g3 -std=c++17
+DEL      = C:\Program Files (x86)\Embarcadero\Dev-Cpp\devcpp.exe INTERNAL_DEL
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${DEL} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+BPlusTree.o: BPlusTree.cpp
+	$(CPP) -c BPlusTree.cpp -o BPlusTree.o $(CXXFLAGS)
+
+case1.o: case1.cpp
+	$(CPP) -c case1.cpp -o case1.o $(CXXFLAGS)
+
+case2.o: case2.cpp
+	$(CPP) -c case2.cpp -o case2.o $(CXXFLAGS)
+
+case4.o: case4.cpp
+	$(CPP) -c case4.cpp -o case4.o $(CXXFLAGS)
+
+case6.o: case6.cpp
+	$(CPP) -c case6.cpp -o case6.o $(CXXFLAGS)
+
+case9.o: case9.cpp
+	$(CPP) -c case9.cpp -o case9.o $(CXXFLAGS)
+
+case11.o: case11.cpp
+	$(CPP) -c case11.cpp -o case11.o $(CXXFLAGS)
+
+CitasIO.o: CitasIO.cpp
+	$(CPP) -c CitasIO.cpp -o CitasIO.o $(CXXFLAGS)
+
+DiasFestivos.o: DiasFestivos.cpp
+	$(CPP) -c DiasFestivos.cpp -o DiasFestivos.o $(CXXFLAGS)
+
+Especialista.o: Especialista.cpp
+	$(CPP) -c Especialista.cpp -o Especialista.o $(CXXFLAGS)
+
+Evento.o: Evento.cpp
+	$(CPP) -c Evento.cpp -o Evento.o $(CXXFLAGS)
+
+Fecha.o: Fecha.cpp
+	$(CPP) -c Fecha.cpp -o Fecha.o $(CXXFLAGS)
+
+Hora.o: Hora.cpp
+	$(CPP) -c Hora.cpp -o Hora.o $(CXXFLAGS)
+
+Listasdc.o: Listasdc.cpp
+	$(CPP) -c Listasdc.cpp -o Listasdc.o $(CXXFLAGS)
+
+ListaSimple.o: ListaSimple.cpp
+	$(CPP) -c ListaSimple.cpp -o ListaSimple.o $(CXXFLAGS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+Marquesina.o: Marquesina.cpp
+	$(CPP) -c Marquesina.cpp -o Marquesina.o $(CXXFLAGS)
+
+Persona.o: Persona.cpp
+	$(CPP) -c Persona.cpp -o Persona.o $(CXXFLAGS)
+
+QrCode.o: QrCode.cpp
+	$(CPP) -c QrCode.cpp -o QrCode.o $(CXXFLAGS)
+
+Utilidades.o: Utilidades.cpp
+	$(CPP) -c Utilidades.cpp -o Utilidades.o $(CXXFLAGS)
+
+Validar.o: Validar.cpp
+	$(CPP) -c Validar.cpp -o Validar.o $(CXXFLAGS)
